@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "bt-baidu",
+    "productName": "blog",
     "version": "0.0.0"
   },
   "tauri": {
@@ -15,12 +15,12 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "百度批量翻译",
-        "minWidth": 1440,
+        "title": "翟天野的博客",
+        "minWidth": 1600,
         "minHeight": 900,
-        "width": 1920,
-        "height": 1080,
-        "url": "https://blog.zhaitianye.com/space/dobot_tools/index.html#/translate",
+        "width": 1600,
+        "height": 900,
+        "url": "https://blog.zhaitianye.com",
         "additionalBrowserArgs": "--disable-web-security"
       }
     ],
@@ -30,7 +30,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.zhaitianye.bt-baidu",
+      "identifier": "com.zhaitianye.blog",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
